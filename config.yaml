@@ -1,0 +1,20 @@
+training:
+  batch_size: 128
+  lr: 0.0002
+  train_epoch: 100
+  save_dir: 'MNIST_GAN_results'
+  log_file: 'MNIST_GAN_results/training_log.txt'
+
+data:
+  dataset: 'MNIST'
+  data_dir: 'data'
+  image_size: 28
+  num_channels: 3
+  normalize_mean: 0.5
+  normalize_std: 0.5
+
+model:
+  generator_input_size: 100
+  generator_output_size: 784 #28*28
+  discriminator_input_size: 784
+  discriminator_output_size: 1

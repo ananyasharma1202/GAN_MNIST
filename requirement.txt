@@ -1,0 +1,5 @@
+torch==2.0.0
+torchvision==0.15.0
+matplotlib==3.7.1
+imageio==2.26.0
+PyYAML==6.0
